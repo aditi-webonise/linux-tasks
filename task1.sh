@@ -1,5 +1,5 @@
-sudo adduser auser --gecos "abcdef,RoomNumber,WorkPhone,HomePhone" --disabled-pass
-echo "auser:pass"| sudo chpasswd
-su auser
-touch a123
-chown auser a123
+sudo adduser user --gecos "abcdef,RoomNumber,WorkPhone,HomePhone" --disabled-pass
+echo "user:pass"| sudo chpasswd
+su user
+touch newfile
+chown auser newfile
